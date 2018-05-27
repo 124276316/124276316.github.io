@@ -607,9 +607,59 @@ a:hover {
  *模块七
 \*=============*/
 #module_seven{
+	
 	background: #67a536;
-	border-top: 1px solid #e8e8e8;
 }
+.module-list .module-layout-column{
+	color: #fff;
+	text-align: center;
+	padding: 0 10px;
+	width: calc(33.333% - 20px);
+	width: -moz-calc(33.333% - 20px);
+	width: -webkit-calc(33.333% - 20px);
+	margin-bottom:40px;
+}
+.module-list .module-layout-column .heading-with-icon{
+	margin-bottom: 15px;
+	margin-top: 55px;
+}
+.module-list .module-layout-column .heading-with-icon i{
+	border: 1px solid #333;
+	background: #333;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+}
+.module-list .module-layout-column h2{
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+.module-list .module-layout-column .content{
+	font-size: 14px;
+}
+.module-list .module-layout-column:hover .heading-with-icon i{
+	border-color: #F1F080;
+	background: #F1F080;
+}
+.module-list .module-layout-column:hover h2{
+	color: #F1F080;
+}
+.module-list .module-layout-column span.layout-img{
+	display: block;
+	border: 1px solid rgb(246, 246, 246);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.298039) 2px 3px 7px;
+    visibility: visible;
+    animation-duration: 1s;
+}
+.module-list .module-layout-column .layout-img img{
+	display: block;
+	width: 100%;
+	}
+
 /*=============*\
  *模块八
 \*=============*/
